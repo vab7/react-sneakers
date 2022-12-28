@@ -1,0 +1,40 @@
+@import "/src/styles/colors";
+
+.product {
+  width: calc(33.33% - (20px * 2 / 3));
+  border-radius: 40px;
+  gap: 15px;
+  padding: 30px;
+  transition: 0.1s ease-in-out;
+
+  @media screen and (min-width: 960px) {
+    width: calc(25% - (20px * 3 / 4));
+  }
+
+  svg {
+    fill: $color-3;
+  }
+
+  &:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    transform: translateY(-5px);
+  }
+
+  &__img {
+    margin: 15px auto 0 auto;
+  }
+
+  &__title {
+    height: 35px;
+    overflow: hidden;
+  }
+
+  &__price_text {
+    font-size: 11px;
+    color: $color-2;
+  }
+
+  &__add_product {
+    padding: 5px;
+  }
+}

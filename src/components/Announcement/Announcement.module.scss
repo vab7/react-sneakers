@@ -1,0 +1,24 @@
+@import "/src/styles/colors";
+
+.shop_empty__container {
+  height: 100%;
+  .shop_empty {
+    gap: 10px;
+    justify-content: center;
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__text {
+      color: $color-2;
+      text-align: center;
+      width: 270px;
+      font-size: 16px;
+    }
+
+    &__img {
+      margin: 10px;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.spc-bwn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spc-ard {
+  display: flex;
+  justify-content: space-around;
+}
+
+.items-c {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.content-c {
+  display: flex;
+  justify-content: center;
+}
